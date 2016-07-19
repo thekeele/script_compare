@@ -46,3 +46,6 @@ print union
 print "\nNumber of Common Words: " + str(len(union))
 print "RNC %: " + str(len(union) / len(fd_rnc) * 100) + " of " + str(len(fd_rnc))
 print "DNC %: " + str(len(union) / len(fd_dnc) * 100) + " of " + str(len(fd_dnc))
+
+f_rnc.close()
+f_dnc.close()
